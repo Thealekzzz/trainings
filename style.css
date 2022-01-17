@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;  
+    font-family: montserrat;  
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav {
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+nav > .navWrapper {
+    padding: 0 50px;
+    text-transform: uppercase;
+}
+
+
+main {
+    margin-top: 140px;
+
+}
+
+.taskBlock {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskBlock > .left {
+    font-weight: normal;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 490px;
+    font-size: 16px;
+}
+
+.mouseButton{
+    background-color: rgb(32, 218, 28);
+    box-shadow: 0 0 60px rgb(32, 218, 28, .5);
+    color: white;
+    border-radius: 5px;
+    padding: 16px 0;
+    width: 230px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s;
+
+    outline: none;
+    border: none;
+
+}
+
+/* .mouseButton:hover {
+    background-color: rgb(75, 221, 17);
+} */
+
+.redButton {
+    border-radius: 40px;
+    background-color: rgb(226, 11, 11);
+    box-shadow: 0 0 60px rgba(226, 11, 11, 0.3);
+}
+
+.field {
+    margin: 70px auto 0px;
+    height: 400px;
+    max-width: 1000px;
+    width: 90vw;
+    border-radius: 10px;
+    /* background-color: #fff;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.1); */
+}
+
+.keyBoard {
+    width: 600px;
+    height: 250px;
+    background-color: #fff;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 70px;
+    border-radius: 10px;
+
+}
+
+.inputField {
+    width: 1000px;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 12px;
+
+}
+
+.cursor {
+    height: 20px;
+    width: 2px;
+    margin: 0 2px;
+    background-color: black;
+}
+
+.rightText {
+    color: #aaa;
+}
+
+
+
+
+
+.mouseField {
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    margin: 60px auto 0;
+    position: relative;
+}
+
+.scores {
+    width: 50px;
+    height: 50px;
+    background-color: #333333;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    cursor: pointer;
+
+}
+
+.blue {
+    background-color:royalblue;
+}
+
+.red {
+    background-color: tomato;
+}
